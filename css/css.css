@@ -123,7 +123,7 @@ footer {
 /*image was sourced from google images using the advanced serch feature creative commons licence*/
 /* By &lt;a href=&quot;//commons.wikimedia.org/wiki/User:Kallerna&quot; title=&quot;User:Kallerna&quot;&gt;kallerna&lt;/a&gt; - &lt;span class=&quot;int-own-work&quot; lang=&quot;en&quot;&gt;Own work&lt;/span&gt;, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=94298133">Link</a> */
 .heroimage {
-  background-image: url("/BIT607A2/images/medrestimg.webp");
+  background-image: url("/images/medrestimg.webp");
   background-size: cover;
   background-color: #cccccc;
   height: 500px;
