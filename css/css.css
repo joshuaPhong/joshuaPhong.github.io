@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: rgb(58, 56, 56);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+h2,
+h3 {
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(97, 94, 94);
+  /* color: white; */
+}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: left;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: grey;
+}
+.topnav a:active {
+  background-color: rgb(160, 22, 22);
+}
+.onPage {
+  background-color: red;
+}
+@media screen and (min-width: 800px) {
+  .topnav-right {
+    float: right;
+  }
+}
+/* Create two equal columns that float next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+table.drinks {
+  width: 100%;
+}
+th.right,
+td.right {
+  text-align: right;
+}
+th.left,
+td.left {
+  text-align: left;
+}
+
+footer {
+  text-align: left;
+  padding: 20px;
+  background-color: rgb(58, 56, 56);
+  color: white;
+}
+.botnav {
+  overflow: hidden;
+  background-color: rgb(97, 94, 94);
+  align-items: center;
+}
+.botnav a {
+  float: left;
+  display: block;
+  text-align: left;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.botnav a:hover {
+  background-color: grey;
+}
+.botnav a:active {
+  background-color: gray;
+}
+.copyright {
+  text-align: center;
+}
+.calendar {
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  position: relative;
+  height: 50vh !important;
+  width: 100%;
+}
+.map {
+  position: absolute;
+  display: block;
+  width: max-content;
+}
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100%;
+}
+/* heros are open source code from w3schools. used here to form the back ground image and wwelcome text to the user*/
+/*image was sourced from google images using the advanced serch feature creative commons licence*/
+/* By &lt;a href=&quot;//commons.wikimedia.org/wiki/User:Kallerna&quot; title=&quot;User:Kallerna&quot;&gt;kallerna&lt;/a&gt; - &lt;span class=&quot;int-own-work&quot; lang=&quot;en&quot;&gt;Own work&lt;/span&gt;, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=94298133">Link</a> */
+.heroimage {
+  background-image: url("/BIT607A2/images/medrestimg.webp");
+  background-size: cover;
+  background-color: #cccccc;
+  height: 500px;
+  max-width: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mySlides {
+  display: none;
+  max-height: 500px;
+}
+.reservationform {
+  width: 100%;
+}
+
+#cssvalid {
+  float: right;
+}
+.contacthours {
+  padding: 5%;
+}
+.privacycontainer {
+  padding: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  table {
+    font-size: 1.5vw;
+  }
+  h1 {
+    font-size: 3vw;
+  }
+  a {
+    font-size: 2vw;
+  }
+  .contacthours {
+    font-size: 2vw;
+  }
+  .privacy {
+    font-size: 2vw;
+  }
+  .heroimage {
+    max-height: 400px;
+  }
+}
+@media screen and (max-width: 800px) {
+  table {
+    font-size: 2vw;
+  }
+  h1 {
+    font-size: 5vw;
+  }
+  a {
+    font-size: 3vw;
+  }
+  .contacthours {
+    font-size: 3vw;
+  }
+  .privacy {
+    font-size: 2.5vw;
+  }
+  .heroimage {
+    max-height: 300px;
+  }
+}
+@media screen and (max-width: 480px) {
+  table {
+    font-size: 3vw;
+  }
+  h1 {
+    font-size: 6vw;
+  }
+  a {
+    font-size: 4vw;
+  }
+  .contacthours {
+    font-size: 4vw;
+  }
+  .privacy {
+    font-size: 3.5vw;
+  }
+  .heroimage {
+    max-height: 300px;
+  }
+}
+
